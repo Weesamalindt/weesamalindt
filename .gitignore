@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Secrets and keys
+id_rsa
+*.pem
+*.key
+*.p12
+
+# OS files
+.DS_Store
