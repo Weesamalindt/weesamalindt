@@ -1,6 +1,44 @@
 echo "# weesamalindt" >> README.md
+
+# Security: Create .gitignore to prevent secrets leakage
+cat <<EOL > .gitignore
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Secrets
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+known_hosts
+
+# Build artifacts
+dist/
+build/
+coverage/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+EOL
+
 git init
-git add README.md
+git add README.md .gitignore
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Weesamalindt/weesamalindt.git
