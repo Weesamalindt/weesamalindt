@@ -1,0 +1,1 @@
+# Sentinel's Journal\n\nThis journal tracks critical security learnings, unique patterns, or rejected changes.\n\n## Format\n`## YYYY-MM-DD - [Title]`\n**Vulnerability:** [What you found]\n**Learning:** [Why it existed]\n**Prevention:** [How to avoid next time]\n\n---
