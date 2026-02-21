@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Environment Variables & Secrets
+.env
+.env.*
+*.key
+*.pem
+id_rsa
+
+# Logs
+*.log
+
+# Build Artifacts
+dist/
+build/
+
+# System Files
+.DS_Store
+Thumbs.db
