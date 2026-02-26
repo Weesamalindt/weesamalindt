@@ -1,0 +1,11 @@
+node_modules/
+.env
+.env.*
+*.log
+*.pem
+*.key
+id_rsa
+dist/
+build/
+.DS_Store
+Thumbs.db
