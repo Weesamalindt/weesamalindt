@@ -1,3 +1,7 @@
+#!/usr/bin/env bash
+# Fail securely on error, undefined vars, or pipe failures
+set -euo pipefail
+
 echo "# weesamalindt" >> README.md
 git init
 git add README.md
