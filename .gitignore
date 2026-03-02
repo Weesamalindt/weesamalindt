@@ -1,0 +1,21 @@
+# Secrets and sensitive files
+*.env
+.env
+.env.*
+*.key
+*.pem
+id_rsa
+*.pub
+
+# Logs
+*.log
+
+# Build artifacts and dependencies
+node_modules/
+dist/
+build/
+out/
+
+# System files
+.DS_Store
+Thumbs.db
