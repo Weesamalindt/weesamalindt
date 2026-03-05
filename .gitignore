@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Environment files
+*.env
+.env
+.env.*
+
+# Logs
+*.log
+
+# Secrets
+*.key
+*.pem
+id_rsa
+*.pub
+
+# Build artifacts
+dist/
+build/
+out/
+
+# System files
+.DS_Store
+Thumbs.db
