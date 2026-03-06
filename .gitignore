@@ -1,0 +1,14 @@
+node_modules/
+*.env
+.env
+.env.*
+*.log
+*.key
+*.pem
+id_rsa
+*.pub
+dist/
+build/
+out/
+.DS_Store
+Thumbs.db
