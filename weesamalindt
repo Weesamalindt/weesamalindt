@@ -1,3 +1,8 @@
+#!/bin/bash
+set -euo pipefail
+
+# Security: Ensure we fail if any commands fail, and use bash for predictable behavior.
+
 echo "# weesamalindt" >> README.md
 git init
 git add README.md
