@@ -1,3 +1,7 @@
+#!/usr/bin/env bash
+# Security Enhancement: Fail securely if any command fails or variables are unset
+set -euo pipefail
+
 echo "# weesamalindt" >> README.md
 git init
 git add README.md
