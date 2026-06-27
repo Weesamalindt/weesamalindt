@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
 echo "# weesamalindt" >> README.md
 git init
 git add README.md
