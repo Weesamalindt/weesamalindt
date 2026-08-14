@@ -1,3 +1,6 @@
+#!/bin/bash
+# Security: Fail fast securely on errors and undefined variables to prevent unsafe operations
+set -euo pipefail
 echo "# weesamalindt" >> README.md
 git init
 git add README.md
