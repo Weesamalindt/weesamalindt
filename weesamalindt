@@ -1,3 +1,8 @@
+#!/bin/bash
+
+# SECURITY: Configured strict mode to ensure the script fails securely on errors, unset variables, or pipeline failures, preventing unintended execution paths.
+set -euo pipefail
+
 echo "# weesamalindt" >> README.md
 git init
 git add README.md
