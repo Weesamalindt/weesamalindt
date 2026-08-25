@@ -1,3 +1,7 @@
+#!/bin/bash
+# Security enhancement: Use strict mode to prevent execution if commands fail or variables are unbound
+set -euo pipefail
+
 echo "# weesamalindt" >> README.md
 git init
 git add README.md
