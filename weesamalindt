@@ -1,3 +1,6 @@
+#!/bin/bash
+# Added strict mode for security to prevent unexpected behavior and errors continuing silently
+set -euo pipefail
 echo "# weesamalindt" >> README.md
 git init
 git add README.md
