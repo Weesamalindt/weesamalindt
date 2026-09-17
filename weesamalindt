@@ -1,3 +1,8 @@
+#!/bin/bash
+
+# Security configuration: strict mode enabled to fail fast on errors or unbound variables
+set -euo pipefail
+
 echo "# weesamalindt" >> README.md
 git init
 git add README.md
