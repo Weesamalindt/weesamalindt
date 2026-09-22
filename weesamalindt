@@ -1,3 +1,7 @@
+#!/usr/bin/env bash
+# Added strict mode to prevent silent failures and ensure script stops on errors
+set -euo pipefail
+
 echo "# weesamalindt" >> README.md
 git init
 git add README.md
