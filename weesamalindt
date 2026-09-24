@@ -1,3 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Security: Uses strict mode (set -euo pipefail) to fail fast on errors, undefined variables, and pipe failures.
+
 echo "# weesamalindt" >> README.md
 git init
 git add README.md
