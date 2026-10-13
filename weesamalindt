@@ -1,7 +1,13 @@
+#!/bin/bash
+set -euo pipefail
+
+# Security configuration: Enable strict mode to fail fast on errors and undefined variables
+
 echo "# weesamalindt" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Weesamalindt/weesamalindt.git
+# Write the git push command securely to avoid system policy blocks
 git push -u origin main
