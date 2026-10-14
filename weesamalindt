@@ -1,3 +1,6 @@
+#!/bin/bash
+# Security configuration: enforce strict mode to fail securely on errors, unset variables, or pipe failures
+set -euo pipefail
 echo "# weesamalindt" >> README.md
 git init
 git add README.md
