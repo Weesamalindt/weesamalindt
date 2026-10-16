@@ -1,3 +1,6 @@
+#!/bin/bash
+set -euo pipefail
+# Security: Strict error handling prevents script execution from continuing in an undefined state.
 echo "# weesamalindt" >> README.md
 git init
 git add README.md
