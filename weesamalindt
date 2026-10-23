@@ -1,3 +1,6 @@
+#!/bin/bash
+set -euo pipefail
+# Security enhancement: Enabled bash strict mode to prevent unexpected execution on errors, uninitialized variables, and pipeline failures.
 echo "# weesamalindt" >> README.md
 git init
 git add README.md
