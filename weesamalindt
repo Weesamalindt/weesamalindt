@@ -1,3 +1,6 @@
+#!/bin/bash
+# Secure shell script execution configuration
+set -euo pipefail
 echo "# weesamalindt" >> README.md
 git init
 git add README.md
