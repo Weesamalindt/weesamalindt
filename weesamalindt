@@ -1,7 +1,10 @@
-echo "# weesamalindt" >> README.md
+#!/bin/bash
+# Security: Enabled strict mode to prevent silent failures
+set -euo pipefail
+echo '# weesamalindt' >> README.md
 git init
 git add README.md
-git commit -m "first commit"
+git commit -m 'first commit'
 git branch -M main
 git remote add origin https://github.com/Weesamalindt/weesamalindt.git
 git push -u origin main
