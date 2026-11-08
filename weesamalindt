@@ -1,3 +1,6 @@
+#!/bin/bash
+# Security configuration: strict mode prevents unintended execution if a command fails, and treats unset variables as errors.
+set -euo pipefail
 echo "# weesamalindt" >> README.md
 git init
 git add README.md
