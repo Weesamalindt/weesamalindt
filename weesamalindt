@@ -1,3 +1,6 @@
+#!/bin/bash
+# Security: Enforcing strict mode to prevent execution on undefined variables or silent failures.
+set -euo pipefail
 echo "# weesamalindt" >> README.md
 git init
 git add README.md
